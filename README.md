@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hey there, I'm Uday 3rd year Engineering student<br>Building skills in frondend dev<br>JavaScript, React, Node JS
+Hey there, I'm Uday 3rd year Engineering student<br>Building skills in frontend dev<br>JavaScript, React, Node JS
 
 
 ## 🌐 Socials:
@@ -19,3 +19,5 @@ Hey there, I'm Uday 3rd year Engineering student<br>Building skills in frondend 
 [![](https://komarev.com/ghpvc/?username=itssUday&icon=6&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
