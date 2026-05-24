@@ -20,4 +20,28 @@ Hey there, I'm Uday 3rd year Engineering student<br>Building skills in frontend 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
+const makeCommits = (n) => {
+  if (n === 0) return simpleGit.push();
+
+  const x = random.default.int(0, 54);
+  const y = random.default.int(0, 6);
+
+  const date = moment()
+    .subtract(1, "y")
+    .add(1, "d")
+    .add(x, "w")
+    .add(y, "d")
+    .format();
+
+  const data = {
+    date: date,
+  };
+
+  jsonfile.writeFile(path, data, () => {
+    simpleGit()
+      .add([path])
+      .commit(date, { "--date": date }, makeCommits.bind(this, --n));
+  });
+};
+
 
